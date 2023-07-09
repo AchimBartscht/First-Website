@@ -2,15 +2,17 @@
     box-sizing: border-box;
 }
 
-body {
+main {
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: smaller;
-padding: 1%;}
+padding: 1%;
+}
 
 header {
     border: solid;
     border-color: whitesmoke;
-    box-shadow: 2px 2px 2px grey;
+    width: 100%;
+    
 }
 nav ul {
     display: flex;
@@ -24,22 +26,38 @@ nav li {
     font-size: smaller;
 }
 
+
 footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    
 }
+
+footer ul {
+display: flex;
+list-style-type: none;
+justify-content: center;
+
+}
+
 .footer__item {
     color: whitesmoke;
 }
 
 
-h1 {
-    color: orange;
-    }
+.Kontakt ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+}
 
-    h2 {
-    color: lightskyblue
+.Bikes ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
 }
+h1,
 h3 {
-    color: greenyellow;
-}
+    color: orange
+    }
 
